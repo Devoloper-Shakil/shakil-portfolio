@@ -5,7 +5,7 @@ import { faFacebookF, faGithub, faInstagramSquare, faLinkedin, faTwitterSquare }
 
 const Futter = () => {
     return (
-        <div style={{ marginTop:"200px"}} className="text-center p-5">
+        <div style={{ marginTop:"110px"}} className="text-center p-5">
             <div className="row">
                 <div  className="col-md-4 text-light">------------------------------------------------------</div>
                 <div className="col-md-4 text-light d-flex  ">

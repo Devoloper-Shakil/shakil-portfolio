@@ -1,0 +1,11 @@
+@media screen and (min-width: 360px) { 
+    .project{
+        /* width: 335px !important; */
+        /* display: inline-block !important; */
+    }
+    .project-btn{
+        margin-left: 0px;
+    width: 148px !important;
+    }
+   
+}

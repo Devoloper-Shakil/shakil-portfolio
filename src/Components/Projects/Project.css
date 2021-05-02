@@ -7,3 +7,10 @@
     transform: scale(1.1);
     transition: transform .5s;
 }
+@media screen and (min-width: 320px) { 
+.card{
+    width: 18rem;
+    float: left;
+    margin: 10px;
+}
+}

@@ -3,14 +3,14 @@ import React from 'react';
 const Articals = () => {
   return (
     <section className="mt-5 mb-5 p-5">
-      <div className="d-flex">
+      <div className="project">
 
-        <h2 className="text-light"><span className="text-warning">Some of</span> my works</h2>
-        <button style={{ marginLeft: "200px" }} type="button" class="btn btn-outline-success text-light mt-2 h-25">All Articals >></button>
+       <div> <h2 className="text-light"><span className="text-warning">Some of</span> Articals</h2></div>
+        <div><button style={{ marginLeft: "200px" }} type="button" class="btn btn-outline-success text-light mt-2 h-25">All Articals >></button></div>
        
       </div>
       <h1 className=' text-light text-center'>Articals is Comming Soon.....!</h1>
-      <div className="row">
+      {/* <div className="row">
         <div className="col-md-4">
           <div class="card" style={{ width: '18rem' }}>
             <img src="..." class="card-img-top" alt="..." />
@@ -29,7 +29,7 @@ const Articals = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -15,6 +15,7 @@ import Navbar from './Components/Home/Navbar/Navbar';
 import Futter from './Components/Home/Futter/Futter';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
             </Route>
             <Route path="/contact">
              <Contact></Contact>
+            </Route>
+            <Route path="/blog">
+             <Blog></Blog>
             </Route>
           </Switch>
           <Futter></Futter>

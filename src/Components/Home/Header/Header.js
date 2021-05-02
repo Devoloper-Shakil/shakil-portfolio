@@ -1,15 +1,17 @@
 import React from 'react';
 import profile from '../../../images/profile.png'
-import resume from '../../../images/fond end web developer resume(2).pdf'
+import resume from '../../../images/shakil-resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom';
+
 
 const Header = () => {
     return (
         <div style={{ marginTop: "85px" }} className="container mb-5 ">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 col-sm-12 ">
+                    <div className="detels">
                     <h5 className="text-primary">Hello, I'm</h5>
                     <h1 className="text-light">Shakil Hasan</h1>
                     <ul className="text-primary d-flex ">
@@ -22,8 +24,9 @@ const Header = () => {
                        <Link to="/about"> <button type="button" class="btn btn-success">About me</button></Link>
                         <a href={resume} download="proposed_file_name">  <button type="button" class="btn btn-outline-success ms-5">Download Resume</button></a>
                      </div>
+                    </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 col-sm-12 ">
                     <img class="img-fluid w-75 mx-auto d-block" src={profile} alt="" />
                 </div>
             </div>

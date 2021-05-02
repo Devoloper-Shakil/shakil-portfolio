@@ -3,6 +3,7 @@ import ridurs from '../../../images/riders.PNG';
 import itshope from '../../../images/it shope.PNG'
 import WorksInfo from './WorksInfo';
 import { Link } from 'react-router-dom';
+import './Works.css'
 
 const Works = () => {
     const worksResume=[
@@ -25,11 +26,13 @@ const Works = () => {
     }
 ]
     return (
-        <section style={{marginTop:"182px"}} className=" mb-5">
-            <div className="d-flex">
+        <section style={{marginTop:"124px"}} className=" mb-5">
+            <div className=" project">
 
-                <h2 className="text-light"><span className="text-warning">Some of</span> my works</h2>
-             <Link to="/project"><button style={{marginLeft:"200px"}} type="button" class="btn btn-outline-success text-light w-50 ">All Projects >></button></Link>
+               <div> <h2 className="text-light "><span className="text-warning">Some of</span> my works</h2></div>
+            <div>
+            <Link to="/project"><button style={{marginLeft:"200px"}} type="button" class="btn btn-outline-success text-light w-50 project-btn">All Projects >></button></Link>
+            </div>
             </div>
             <div style={{marginTop:"42px"}}>
                 {
