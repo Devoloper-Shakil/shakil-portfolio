@@ -3,7 +3,7 @@ import ProjestsInfo from './ProjestsInfo';
 import ridurs from '../../images/riders.PNG';
 import itshope from '../../images/it shope.PNG'
 import ecommarce from '../../images/ecomarce.PNG'
-import slider from '../../images/slider.PNG'
+import doctor from '../../images/doctor.PNG'
 
 const Projects = () => {
     const resentProjects=[
@@ -27,11 +27,11 @@ const Projects = () => {
     {
         id:"3",
         name: "Online product sell",
-        discaption:"A single page Slider create website  app where people are able to select product in their cart and checkout the cart with their information .shipping informitone set and carded card add. ",
-        img:slider,
+        discaption:"A single page Slider create website  app where people are able to select doctor  in their get sirial number with give me your phone and email in information . ",
+        img:doctor,
         skill:"Reactjs, Node.js, Express.js, MongoDB.js, Firebase, Bootstrap5 ",
-        github:"https://github.com/Devoloper-Shakil/full-stack-clinte",
-        website:"https://github.com/Devoloper-Shakil/ema-hojn-client"
+        github:"https://github.com/Devoloper-Shakil/Doctor-service",
+        website:"https://doctor-service.netlify.app/"
     },
     { 
         id:"4",

@@ -16,6 +16,7 @@ import Futter from './Components/Home/Futter/Futter';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 import Blog from './Components/Blog/Blog';
+import AllBolgs from './Components/Home/Articals/AllBolgs';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
              <Contact></Contact>
             </Route>
             <Route path="/blog">
-             <Blog></Blog>
+            
+             <AllBolgs></AllBolgs>
             </Route>
           </Switch>
           <Futter></Futter>
